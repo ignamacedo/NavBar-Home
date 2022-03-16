@@ -1,9 +1,7 @@
-import react from 'react'; // se llama directamente con react ya que se encuentra dentro de los paquetes modules sin necesidad de referenciar toda la ruta, al apuntar la referencia indica la ruta completa (abrebiaciones de los componentes basicos de los componentes de react
+import react from 'react'; 
 import carro from './carro.png';
 
-//nombre de la funcion siempre en MAYUS
-//para que el componente se vea tengo que exportarlo en el componente App.js
-export default function NavBar(){ // siempre agregar export a la funcion componente, ya que si lo llamamos y no se exporta no nos va a dejar
+export default function NavBar(){ 
     return(
         <div className="nb_conteiner">
            <div className="nb_categorias">
