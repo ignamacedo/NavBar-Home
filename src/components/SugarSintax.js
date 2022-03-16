@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SugarSyntax(){
     
-    var array = [5,6,7]; //array declarado
+    var array = [5,6,7];
 
     //BUCLE FOR..OF
     const loopFOROF = () =>{
