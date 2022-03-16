@@ -6,26 +6,26 @@ export default function SugarSyntax(){
 
     //BUCLE FOR..OF
     const loopFOROF = () =>{
-        let bucleforOF = ``; //array vacio
-        for(let index of array){ // por cada indice del array dcelaradio, itera hasta el final
+        let bucleforOF = ``; 
+        for(let index of array){ 
             bucleforOF += `${i}`;
         }
         return bucleforOF;
     }
 
     //TERNARIO
-    const ternbary = (boolean) => { //llega un booleano
+    const ternbary = (boolean) => { 
         let result;
-        boolean ? result = `${boolean}` : result = `${boolean}` //guardo valor en variable result dependiendo si es true o false
+        boolean ? result = `${boolean}` : result = `${boolean}` 
         return result;
     }
 
     //SEPEAD...
     const spreadOperator = () =>{
-        //agregar un item al array
+        
         let newElement = 10;
         let array2 = [...array,newElement];
-        //pusheo un elemento en el array declarado eb un array nuevo
+        //pusheo un elemento
         retrun `${array2}`;
     }
 
@@ -33,8 +33,6 @@ export default function SugarSyntax(){
     const filter = () =>{
         //pasa datos de un array a otro, pero filtrando por la condicion
         const words = ['spray', 'item', 'elite', 'exuberant', 'destruction', 'present'];
-        //guardo los datos del array words en el array resukt simepre y cuendo cumpla que la palabra sea mayor a 6 caracteres
-        //declara variable word para usarla como cada elemento
         const result = words.filter(word => word.length > 6);
         return `${result}`;
     }
